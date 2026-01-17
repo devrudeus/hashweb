@@ -740,7 +740,7 @@ export default function HashWebLanding() {
           {/* Social Media Links */}
           <div className="flex flex-col items-center gap-8 pt-8 border-t border-purple-primary/30">
             <div className="flex items-center justify-center gap-6">
-              {/* pump.fun */}
+              {/* bags.fm */}
               <a
                 href="#"
                 target="_blank"
@@ -749,8 +749,8 @@ export default function HashWebLanding() {
               >
                 <div className="glass-card w-12 h-12 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:bg-purple-primary/20 transition-all">
                   <Image
-                    src="/pumpfun-logo.png"
-                    alt="pump.fun"
+                    src="/bags-icon.png"
+                    alt="bags.fm"
                     width={24}
                     height={24}
                     className="w-6 h-6 object-contain"
@@ -789,8 +789,66 @@ export default function HashWebLanding() {
               </a>
             </div>
 
+            {/* Developed By Section */}
+            <div className="text-center mt-12">
+              <h3 className="text-2xl font-bold mb-8 gradient-text">Developed by</h3>
+              <div className="flex items-center justify-center gap-12 flex-wrap">
+                {/* Jeffy Yu */}
+                <div className="flex flex-col items-center group cursor-pointer">
+                  <div className="w-24 h-24 rounded-full overflow-hidden mb-3 border-2 border-purple-primary/30 group-hover:border-purple-primary transition-all group-hover:scale-110">
+                    <Image
+                      src="/jeffyyu.webp"
+                      alt="Jeffy Yu"
+                      width={96}
+                      height={96}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <p className="text-white font-mono font-semibold">jeffy yu</p>
+                </div>
+
+                {/* GNON Dev */}
+                <a
+                  href="https://x.com/GnonLabs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-center group cursor-pointer"
+                >
+                  <div className="w-24 h-24 rounded-full overflow-hidden mb-3 border-2 border-purple-primary/30 group-hover:border-purple-primary transition-all group-hover:scale-110">
+                    <Image
+                      src="/gnon.webp"
+                      alt="GNON Dev"
+                      width={96}
+                      height={96}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <p className="text-white font-mono font-semibold">gnon dev</p>
+                </a>
+
+                {/* Rudeus */}
+                <a
+                  href="https://x.com/rudeuscapital_"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-center group cursor-pointer"
+                >
+                  <div className="w-24 h-24 rounded-full overflow-hidden mb-3 border-2 border-purple-primary/30 group-hover:border-purple-primary transition-all group-hover:scale-110">
+                    <Image
+                      src="/rudeus.jpeg"
+                      alt="Rudeus"
+                      width={96}
+                      height={96}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <p className="text-white font-mono font-semibold">rudeus</p>
+                </a>
+              </div>
+            </div>
+
             {/* Copyright */}
-            <div className="text-center">
+            <div className="text-center mt-12">
               <p className="text-gray-light mb-2 font-mono text-sm">
                 © 2026 HASH WEB. All rights reserved.
               </p>
