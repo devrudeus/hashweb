@@ -741,17 +741,17 @@ export default function HashWebLanding() {
           {/* Social Media Links */}
           <div className="flex flex-col items-center gap-8 pt-8 border-t border-purple-primary/30">
             <div className="flex items-center justify-center gap-6">
-              {/* pump.fun */}
+              {/* bags.fm */}
               <a
-                href="#"
+                href="https://bags.fm/HRerw5D81YL9tNezXv3msL3kpikbYufcwbG7QBfdBAGS"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
               >
                 <div className="glass-card w-12 h-12 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:bg-purple-primary/20 transition-all">
                   <Image
-                    src="/pumpfun-logo.png"
-                    alt="pump.fun"
+                    src="/bags-icon.png"
+                    alt="bags.fm"
                     width={24}
                     height={24}
                     className="w-6 h-6 object-contain"
