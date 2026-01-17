@@ -743,7 +743,7 @@ export default function HashWebLanding() {
             <div className="flex items-center justify-center gap-6">
               {/* pump.fun */}
               <a
-                href="https://pump.fun/coin/Cmn5utxenJRDwC8RDMqWurKrvwuDacC9vStmptSxpump"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
