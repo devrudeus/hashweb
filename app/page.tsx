@@ -10,8 +10,7 @@ import {
   Blocks,
   Download,
   ChevronRight,
-  FileText,
-  Send
+  FileText
 } from 'lucide-react'
 
 export default function HashWebLanding() {
@@ -741,17 +740,17 @@ export default function HashWebLanding() {
           {/* Social Media Links */}
           <div className="flex flex-col items-center gap-8 pt-8 border-t border-purple-primary/30">
             <div className="flex items-center justify-center gap-6">
-              {/* bags.fm */}
+              {/* pump.fun */}
               <a
-                href="https://bags.fm/HRerw5D81YL9tNezXv3msL3kpikbYufcwbG7QBfdBAGS"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
               >
                 <div className="glass-card w-12 h-12 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:bg-purple-primary/20 transition-all">
                   <Image
-                    src="/bags-icon.png"
-                    alt="bags.fm"
+                    src="/pumpfun-logo.png"
+                    alt="pump.fun"
                     width={24}
                     height={24}
                     className="w-6 h-6 object-contain"
@@ -774,18 +773,6 @@ export default function HashWebLanding() {
                     height={24}
                     className="w-6 h-6 object-contain"
                   />
-                </div>
-              </a>
-
-              {/* Telegram */}
-              <a
-                href=" https://t.me/hash_webxyz"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group"
-              >
-                <div className="glass-card w-12 h-12 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:bg-purple-primary/20 transition-all">
-                  <Send className="w-6 h-6 text-purple-light" />
                 </div>
               </a>
 
