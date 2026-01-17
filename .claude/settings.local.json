@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout /t 5)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(ls:*)",
+      "Bash(tree:*)",
+      "Bash(dir:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run lint)",
+      "Bash(ren Logo.svg logo.svg)",
+      "Bash(move Logo.svg logo.svg)",
+      "Bash(timeout 5:*)",
+      "Bash(timeout:*)",
+      "Bash(curl:*)",
+      "Bash(npx next dev:*)",
+      "Bash(ping:*)",
+      "Bash(if exist \".next\" rd /s /q \".next\")",
+      "Bash(PORT=3005 npm run dev:*)"
+    ]
+  }
+}

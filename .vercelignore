@@ -1,0 +1,29 @@
+# Documentation files
+*.md
+LOGO_GUIDE.md
+BACKEND_THEME_PROMPT.md
+ANIMATED_BACKGROUND_GUIDE.md
+
+# Development files
+.git
+.gitignore
+README.md
+
+# Node modules (Vercel will install fresh)
+node_modules
+
+# Local env files
+.env.local
+.env.*.local
+
+# Build output (Vercel will build fresh)
+.next
+out
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
