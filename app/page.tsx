@@ -743,7 +743,7 @@ export default function HashWebLanding() {
             <div className="flex items-center justify-center gap-6">
               {/* pump.fun */}
               <a
-                href="#"
+                href="https://pump.fun/coin/GivV1QksLJW13MJYHjUV2q4LuhWb2hSuRNEGNQMwpump"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
@@ -761,7 +761,7 @@ export default function HashWebLanding() {
 
               {/* X (Twitter) */}
               <a
-                href="https://x.com"
+                href="https://x.com/hashweb_xyz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
@@ -779,7 +779,7 @@ export default function HashWebLanding() {
 
               {/* Telegram */}
               <a
-                href="https://t.me/hashweb"
+                href=" https://t.me/hash_webxyz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
@@ -791,7 +791,7 @@ export default function HashWebLanding() {
 
               {/* GitHub */}
               <a
-                href="https://github.com/ardtys/Hash-Web-Backend"
+                href="https://github.com/ardtys/hashweb-backend"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
